@@ -3,11 +3,11 @@ import { baseMachine } from "../../machines/base";
 
 const Base = () => {
   const [state, send] = useMachine(baseMachine);
-  console.log("state: ", state.matches("enabled"));
   const { isDisabled } = state.context;
   const onClick = () => {
     send("CLICK");
   };
+
   return (
     <section>
       <h1>Base {`${isDisabled}`}</h1>

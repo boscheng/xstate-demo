@@ -12,7 +12,7 @@ npm run dev
 
 ## demo2 用户登入
 
-1. 输入用户名登录，做基本的路由权限校验
+1. 输入用户名登录，做基本的路由权限校验 name: test psd: 123
 2. 跨组件通信
 
 ## demo3 todo list mvc 案例
